@@ -5,3 +5,5 @@ struct stack{
 	LinkedList *list;
 	Node **top;
 };
+
+Stack createStack(void);
