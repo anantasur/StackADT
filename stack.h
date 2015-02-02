@@ -7,3 +7,5 @@ struct stack{
 };
 
 Stack createStack(void);
+int push(Stack, void *);
+void * pop(Stack );
